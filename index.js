@@ -1,6 +1,3 @@
-
-import Book from './modules/app.js';
-
 import addBooks from './modules/addBook.js';
 
 import showForm from './modules/showForm.js';
@@ -22,5 +19,3 @@ showBook();
 const now = DateTime.now();
 const time = document.querySelector('#date-time');
 time.innerHTML = now.toLocaleString(DateTime.DATETIME_MED);
-
-
