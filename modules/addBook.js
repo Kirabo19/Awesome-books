@@ -22,4 +22,4 @@ const addBooks = () => {
     form.reset();
   });
 };
-export default addBooks;
+export { addBooks };

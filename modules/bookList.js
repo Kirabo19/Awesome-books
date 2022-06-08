@@ -10,4 +10,4 @@ const showBook = () => {
 
   addBookToList.addEventListener('click', showBook);
 };
-export default showBook;
+export { showBook };

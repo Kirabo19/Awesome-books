@@ -1,10 +1,10 @@
-import addBooks from './modules/addBook.js';
+import { addBooks } from './modules/addBook.js';
 
-import showForm from './modules/showForm.js';
+import { showForm } from './modules/showForm.js';
 
-import showBook from './modules/bookList.js';
+import { showBook } from './modules/bookList.js';
 
-import showContact from './modules/ShowContact.js';
+import { showContact } from './modules/ShowContact.js';
 
 import { DateTime } from './modules/luxon.js';
 
