@@ -2,7 +2,7 @@ import Book from './app.js';
 
 // const book = new Book(title, author);
 
-export default function addBooks() {
+const addBooks = () => {
   const form = document.querySelector('#books-form');
 
   form.addEventListener('submit', () => {
@@ -21,4 +21,5 @@ export default function addBooks() {
 
     form.reset();
   });
-}
+};
+export default addBooks;
