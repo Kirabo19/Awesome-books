@@ -11,4 +11,4 @@ const showContact = () => {
   openContact.addEventListener('click', showContact);
 };
 
-export { showContact };
+export default showContact;

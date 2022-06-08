@@ -10,4 +10,4 @@ const showForm = () => {
 
   openForm.addEventListener('click', showForm);
 };
-export { showForm };
+export default showForm;
