@@ -1,4 +1,4 @@
-export default function showForm() {
+const showForm = () => {
   const openForm = document.getElementById('add-form');
   const addNew = document.getElementById('add_books');
   const bookList = document.getElementById('books-list');
@@ -9,4 +9,5 @@ export default function showForm() {
   contact.classList.add('dontShow');
 
   openForm.addEventListener('click', showForm);
-}
+};
+export default showForm();
