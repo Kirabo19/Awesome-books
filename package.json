@@ -1,7 +1,6 @@
 {
   "name": "awesome-books",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +8,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kirabo19/Awesome-books.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kirabo19/Awesome-books/issues"
+  },
+  "homepage": "https://github.com/Kirabo19/Awesome-books#readme",
+  "description": "",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
